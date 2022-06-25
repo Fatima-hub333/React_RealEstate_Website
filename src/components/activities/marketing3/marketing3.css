@@ -1,0 +1,143 @@
+.helo {
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.learnbtn3 {
+  font-family: 'Sackers Gothic Std';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  text-transform: lowercase;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #fff;
+}
+
+.titlesmall3 {
+  text-align: left;
+  right: 50px;
+  font-family: 'Sackers Gothic Std';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #c49a50;
+}
+
+.titlemar3 {
+  font-family: 'Sackers Gothic Std';
+  font-style: normal;
+  font-weight: 300;
+  word-spacing: 10px;
+  font-size: 45px;
+  line-height: 46px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #fff;
+}
+
+.textm3 {
+  margin-top: 100px;
+  text-align: left;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  color: #b4b4be;
+}
+
+.imgm3 {
+  width: 218px;
+  height: 326px;
+  margin-left: 300px;
+  margin-top: 140px;
+  filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.48));
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.img3ink2 {
+  width: 152px;
+  height: 219px;
+  margin-left: 185px;
+  margin-top: -290px;
+  border-radius: 5px;
+}
+
+.img3ink3 {
+  width: 146px;
+  height: 97px;
+  margin-left: 55px;
+  margin-top: -250px;
+  border-radius: 3px;
+}
+
+.img3ink4 {
+  width: 105px;
+  height: 166px;
+  margin-left: 92px;
+  margin-top: 83px;
+  border-radius: 3px;
+}
+
+.img3ink5 {
+  width: 160px;
+  height: 98px;
+  margin-left: 295px;
+  margin-top: -50px;
+  border-radius: 3px;
+}
+
+.img3ink6 {
+  width: 165px;
+  height: 110px;
+  margin-left: 415px;
+  margin-top: -423px;
+  border-radius: 3px;
+}
+
+.img3ink7 {
+  width: 105px;
+  height: 166px;
+  margin-left: 505px;
+  margin-top: 135px;
+  border-radius: 3px;
+}
+
+.img3ink8 {
+  width: 156px;
+  height: 110px;
+  margin-left: 620px;
+  margin-top: -185px;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.25));
+  border-radius: 3px;
+}
+
+.learnbtn3 {
+  font-family: 'Sackers Gothic Std';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  text-transform: lowercase;
+  color: #fff;
+}
+
+/* Tablet Responsive */
+@media only screen and (max-width: 900px) {
+  .helo {
+    margin-top: 25%;
+  }
+
+  .imgm {
+    width: 200px;
+    height: 180px;
+    margin-left: 150px;
+    margin-top: 100px;
+    filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.48));
+    border-radius: 4px;
+  }
+}

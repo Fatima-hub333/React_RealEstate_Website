@@ -1,0 +1,65 @@
+/* .marketing1 {
+  background: linear-gradient(270.79deg, #0C1F30 0.68%, #02060A 99.32%);
+  height: 648px;
+} */
+.mrktdiv1 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.mrktslide1 {
+  width: 100%;
+}
+
+.mrktdiv2 {
+  margin-top: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.mkttxt1 {
+  font-size: 17px;
+  color: #c49a50;
+}
+
+.mkttxt2 {
+  font-size: 38px;
+  color: #fff;
+}
+
+.mkttxt3 {
+  font-size: 18px;
+  color: #b4b4be;
+}
+
+.mkttxt4 {
+  font-size: 16px;
+}
+
+.mkttxt4 {
+  font-size: 16px;
+  color: #fff;
+}
+
+
+/* Tablet Responsive */
+@media only screen and (max-width: 800px) {
+  .mrktdiv2 {
+    margin-top: -8%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 600px) {
+  .mrktdiv2 {
+    margin-top: -5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
