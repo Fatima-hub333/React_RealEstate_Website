@@ -1,0 +1,138 @@
+
+.mainabout {
+  background-color: #fbfbfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.headig1 {
+  /* margin-top: 20%; */
+  font-family: 'Sackers Gothic Std';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 73px;
+  line-height: 100px;
+  text-align: left;
+  color: #0c1f30;
+  margin-left: 25%;
+}
+
+.headigs2 {
+  margin-top: -14%;
+  font-family: 'Sackers Gothic Std';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 73px;
+  line-height: 100px;
+  text-align: left;
+  color: #0c1f30;
+  margin-left: 25%;
+}
+
+.headigs3 {
+  margin-top: -10%;
+  color: #88888c;
+
+  /* background-color: #6E6E73; */
+  font-size: 24px;
+
+  /* margin-left: 25%; */
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 35%;
+  border: 1px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.abttxt {
+  font-size: 16px;
+  margin-top: 5%;
+
+  /* background-color: aqua; */
+  color: #6e6e73;
+  text-align: right;
+  margin-left: 30%;
+  margin-right: 35%;
+}
+
+.abtimg {
+  width: 70%;
+  height: 70%;
+}
+
+
+/* Tablet Responsive */
+@media only screen and (max-width: 800px) {
+  .mainabout {
+    /* margin-top: 25%; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .headig1 {
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 15%;
+  }
+
+  .headigs2 {
+    text-align: center;
+    margin-left: 0%;
+    margin-top: -12%;
+  }
+
+  .headigs3 {
+    text-align: center;
+    margin-left: 0%;
+    margin-top: -10%;
+    margin-right: 0%;
+  }
+
+  .imghead {
+    justify-content: center;
+  }
+
+  .abttxt {
+    font-size: 16px;
+    margin-top: 5%;
+    color: #6e6e73;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 600px) {
+  .headig1 {
+    text-align: center;
+    margin-left: 0%;
+  }
+
+  .headigs2 {
+    text-align: center;
+    margin-left: 0%;
+  }
+
+  .headigs3 {
+    text-align: center;
+    margin-left: 0%;
+    margin-top: -10%;
+    margin-right: 0%;
+  }
+
+  .abttxt {
+    font-size: 16px;
+    margin-top: 5%;
+    color: #6e6e73;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
